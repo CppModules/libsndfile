@@ -113,7 +113,7 @@ if (BUILD_REGTEST AND (NOT SQLITE3_FOUND))
 endif()
 
 cmake_dependent_option (ENABLE_COMPATIBLE_LIBSNDFILE_NAME "Set DLL name to libsndfile-1.dll (canonical name), sndfile.dll otherwise" OFF "WIN32;BUILD_SHARED_LIBS" OFF)
-cmake_dependent_option (INSTALL_MANPAGES "Install man pages for programs" ON "BUILD_PROGRAMS" OFF)
+cmake_dependent_option (INSTALL_MANPAGES "Install man pages for programs" OFF "BUILD_PROGRAMS" OFF)
 
 if (NOT MSVC)
 	if (CPU_IS_X86)
