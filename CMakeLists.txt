@@ -39,8 +39,8 @@ endif ()
 
 project(libsndfile VERSION 1.2.2)
 
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/third_party/flac)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/third_party/ogg)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/third_party/flac)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/third_party/vorbis)
 set(ENABLE_EXTERNAL_LIBS OFF)
 #add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/third_party/opus)

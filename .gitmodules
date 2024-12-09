@@ -1,6 +1,6 @@
 [submodule "third_party/flac"]
 	path = third_party/flac
-	url = https://github.com/xiph/flac
+	url = https://github.com/Huiyicc/flac
 [submodule "third_party/ogg"]
 	path = third_party/ogg
 	url = https://github.com/xiph/ogg
